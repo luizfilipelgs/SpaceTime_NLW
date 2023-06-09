@@ -7,13 +7,15 @@ const bai = Bai({ subsets: ['latin'], weight: '700', variable: '--font-bai' })
 
 export const metadata = {
   title: 'NLW Space Time',
-  description: 'Capsula do tempo usando: React, Next, Typescript e Tailwind. ',
+  description: 'Capsula do tempo usando: React, Next, Typescript e Tailwind.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${bai.variable} font-sans`}>
+      <body
+        className={`${roboto.variable} ${bai.variable} bg-gray-900 font-sans text-gray-100`}
+      >
         {children}
       </body>
     </html>
