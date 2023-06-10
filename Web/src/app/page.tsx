@@ -46,7 +46,7 @@ export default function Home() {
 
         <div>
           <p className="text-sm leading-relaxed text-gray-200">
-            Projeto realizado no evento NLW Ignite da Rocketseat.
+            Projeto realizado no evento NLW Ignite da Rocketseat 🚀
           </p>
           <p className="text-sm leading-relaxed text-gray-200">
             Acesse o repositorio em meu Github{' '}
