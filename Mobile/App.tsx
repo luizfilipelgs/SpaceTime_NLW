@@ -1,4 +1,8 @@
 import { StatusBar } from 'expo-status-bar'
+import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
+import blurBg from './src/assets/bg-blur.png'
+import Stripes from './src/assets/stripes.svg'
+import Logo from './src/assets/logo.svg'
 import {
   ImageBackground,
   View,
@@ -6,10 +10,6 @@ import {
   TouchableOpacity,
   Linking,
 } from 'react-native'
-import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
-import blurBg from './src/assets/bg-blur.png'
-import Stripes from './src/assets/stripes.svg'
-import Logo from './src/assets/logo.svg'
 import {
   useFonts,
   Roboto_400Regular,
@@ -46,6 +46,7 @@ export default function App() {
           <Text className="text-center font-title text-2xl leading-tight text-gray-50">
             Sua cápsula do tempo
           </Text>
+
           <Text className="text-center font-body text-base leading-relaxed text-gray-100">
             Colecione momentos marcantes da sua jornada e compartilhe (se
             quiser) com o mundo!
@@ -69,8 +70,8 @@ export default function App() {
             Linking.openURL('https://github.com/luizfilipelgs/SpaceTime_NLW')
           }}
         >
-          Projeto realizado no evento NLW Ignite da Rocketseat, Acesse o
-          repositorio em meu Github
+          Projeto realizado no evento NLW Ignite da Rocketseat, Clique e acesse
+          o repositorio em meu Github
         </Text>
       </View>
 
